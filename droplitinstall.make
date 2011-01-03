@@ -80,17 +80,27 @@ projects[views_slideshow][subdir] = "contrib"
 projects[seed][subdir] = "custom"
 projects[seed][location] = "http://code.developmentseed.org/fserver"
 
-; Apr 6, 2010 - 6.x-1.4
-projects[site_variables][subdir] = "features"
-projects[site_variables][location] = "http://features.droplits.net/fserver"
+; Droplit Features
+projects[droplit_variables][type] = "module"
+projects[droplit_variables][subdir] = "features"
+projects[droplit_variables][download][type] = "git"
+projects[droplit_variables][download][url] = "git://github.com/droplits/droplit_variables.git"
+; projects[site_variables][subdir] = "features"
+; projects[site_variables][location] = "http://features.droplits.net/fserver"
 
-; Apr 6, 2010 - 6.x-1.3
+projects[droplitfilters][type] = "module"
 projects[droplitfilters][subdir] = "features"
-projects[droplitfilters][location] = "http://features.droplits.net/fserver"
+projects[droplitfilters][download][type] = "git"
+projects[droplitfilters][download][url] = "git://github.com/droplits/droplitfilters.git"
+; projects[droplitfilters][subdir] = "features"
+; projects[droplitfilters][location] = "http://features.droplits.net/fserver"
 
-; Jan 9 2010  - 6.x-1.3
+projects[droplitevent][type] = "module"
 projects[droplitevent][subdir] = "features"
-projects[droplitevent][location] = "http://features.droplits.net/fserver"
+projects[droplitevent][download][type] = "git"
+projects[droplitevent][download][url] = "git://github.com/droplits/droplitevent.git"
+; projects[droplitevent][subdir] = "features"
+; projects[droplitevent][location] = "http://features.droplits.net/fserver"
 
 ; Themes
 projects[droplit][type] = "theme"
