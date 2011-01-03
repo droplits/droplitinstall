@@ -1,4 +1,4 @@
-; $Id: droplitinstallprofile.make,v 1.1.8 2010/04/05 03:11:46 droplits Exp $
+; $Id: droplitinstall.make,v 1.1.8 2010/04/05 03:11:46 droplits Exp $
 ; Test Update
 core = 6.x
 
