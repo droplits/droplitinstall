@@ -121,5 +121,5 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz"
-libraries[ckeditor][destination] = modules/contrib/ckeditor/ckeditor
+libraries[ckeditor][destination] = "modules/contrib/ckeditor/ckeditor"
 libraries[ckeditor][copy][] = *
